@@ -11,15 +11,6 @@ const App = () => {
     }, 1000);
   }, []);
 
-  const redirectStore = () => {
-    const ua = navigator.userAgent.toLowerCase();
-
-    window.location.href =
-      ua.indexOf('android') > -1
-        ? 'https://play.google.com/store/apps/details?id=com.firma_station_mobile'
-        : 'https://apps.apple.com/kr/app/id1611660902';
-  };
-
   function exeDeepLink() {
     axios
       .get(`${process.env.REACT_APP_API_HOST}/airdrop`)
