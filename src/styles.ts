@@ -8,7 +8,7 @@ export const MainContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #111;
+  background-color: #1b1c22;
 `;
 
 export const ContentsContainer = styled.div`
@@ -95,4 +95,19 @@ export const StoreText2 = styled.div`
   font-size: 17px;
   text-align: left;
   font-weight: 500;
+`;
+
+export const StoreImageButton = styled.img`
+  width: auto;
+  height: 50px;
+  margin-bottom: 10px;
+`;
+
+export const Description = styled.div`
+  font-size: 1.6rem;
+  color: #eee;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 24px;
+  padding: 0 30px;
 `;
