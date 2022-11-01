@@ -55,9 +55,7 @@ const App = () => {
             (window.location.href = 'https://play.google.com/store/apps/details?id=com.firma_station_mobile')
           }
         />
-        {isExpired && (
-          <DescriptionSub>{'The airdrop event has officially ended.\n2022-09-22 ~ 2022-09-23'}</DescriptionSub>
-        )}
+        <DescriptionSub>{'The airdrop event has officially ended.\n2022-09-22 ~ 2022-09-23'}</DescriptionSub>
       </ContentsContainer>
     </MainContainer>
   );
